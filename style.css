@@ -171,17 +171,21 @@ section{
     color: #fff;
 }
 
-.pesquisar-cafe{
-
+form{
+display: flex;
 }
 
 .lupa img{
     cursor: pointer;
     margin: 1rem; 
+    top: -35px;
+    left: 280px;
     
 }
-.lupa img:hover{
-    width: 1vh; 
-    height:1vh;
-    
+input{
+    border-radius: 10px;
+    border: 5px solid #918b8b;
+    width: 250px;
+    font-size: 4vh;
 }
+
